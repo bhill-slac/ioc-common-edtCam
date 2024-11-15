@@ -50,7 +50,7 @@ TIMESTAMPFIFO_MODULE_VERSION		= R1.6.0
 # If your build fails, look for these paths in your build output
 # ============================================================
 ADCORE			= $(EPICS_MODULES)/ADCore/$(ADCORE_MODULE_VERSION)
-ADEDTPDV		= $(EPICS_MODULES)/ADEdtPdv/$(ADEDTPDV_MODULE_VERSION)
+#ADEDTPDV		= $(EPICS_MODULES)/ADEdtPdv/$(ADEDTPDV_MODULE_VERSION)
 ADSIMDETECTOR	= $(EPICS_MODULES)/ADSimDetector/$(ADSIMDETECTOR_MODULE_VERSION)
 ADSTREAM		= $(EPICS_MODULES)/ADStream/$(ADSTREAM_MODULE_VERSION)
 ADSUPPORT		= $(EPICS_MODULES)/ADSupport/$(ADSUPPORT_MODULE_VERSION)
@@ -85,12 +85,13 @@ EPICS_BASE		= $(EPICS_SITE_TOP)/base/$(BASE_MODULE_VERSION)
 
 #MY_MODULES	= /afs/slac/u/ey/bhill/git-wa/modules
 #MY_MODULES	= /reg/neh/home5/bhill/git-wa-neh/modules
+MY_MODULES	= /reg/g/pcds/epics-dev/skoufis/ADEdtPdv
 #MY_MODULES	= /reg/neh/home5/slepicka/sandbox_lcls/git
 
 #ADSIMDETECTOR=$(MY_MODULES)/ADSimDetector-git
 #ADCORE=$(MY_MODULES)/ADCore-git
 #ASYN=$(MY_MODULES)/asyn-git
-#ADEDTPDV=$(MY_MODULES)/ADEdtPdv-git
+ADEDTPDV=$(MY_MODULES)/ADEdtPdv-git
 #ADSTREAM=$(MY_MODULES)/ADStream-git
 #ASYNGENICAM=$(MY_MODULES)/asynGenicam-git
 #AUTOSAVE=$(MY_MODULES)/autosave-git
